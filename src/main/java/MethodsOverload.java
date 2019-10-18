@@ -13,13 +13,38 @@ public class MethodsOverload {
         int add4 = add(value1,value2,value3,value4);
         int add5 = add(value1,value2,value3,value4,value5);
 
+        int sum = add(value1,value2);
+        int sum2 = add(value3,sum);
+
         System.out.println(add2);
         System.out.println(add3);
         System.out.println(add4);
         System.out.println(add5);
 
+        System.out.println(returnValue(1L));
+//        System.out.println(returnValue("SDA"));
+//        System.out.println(returnValue(11111L));
+//        System.out.println(returnValue(1,"SDA"));
+
+
     }
 
+
+    public static String returnValue(int value){
+        return "int value: "+value;
+    }
+
+    public static String returnValue(long value){
+        return "long value: "+value;
+    }
+
+    public static String returnValue(String name){
+        return "string value: "+name;
+    }
+
+    public static String returnValue(int myInt,String name){
+        return "";
+    }
 
     public static int add(int a,int b){
         return a+b;
