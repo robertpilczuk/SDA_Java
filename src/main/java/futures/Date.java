@@ -1,3 +1,5 @@
+package futures;
+
 import examples.inheritance.BaseClass;
 import examples.inheritance.ExtendedClass;
 

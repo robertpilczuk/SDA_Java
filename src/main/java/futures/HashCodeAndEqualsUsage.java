@@ -1,3 +1,5 @@
+package futures;
+
 import examples.hashCodeAndEquals.HashCodeEquals;
 
 public class HashCodeAndEqualsUsage {

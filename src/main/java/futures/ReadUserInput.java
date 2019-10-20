@@ -1,3 +1,5 @@
+package futures;
+
 import java.util.Scanner;
 
 public class ReadUserInput {
