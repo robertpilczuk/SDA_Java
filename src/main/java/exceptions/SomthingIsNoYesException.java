@@ -5,6 +5,7 @@ public class SomthingIsNoYesException extends IllegalArgumentException{
     private String message;
     private int statusCode;
 
+
     public SomthingIsNoYesException(String message,
                                     int statusCode) {
         super(message);

@@ -6,9 +6,8 @@ public class ExtendedMain {
         ExtendedClass extendedClass = new ExtendedClass(1,1,1,1);
         BaseClass baseClass = new AnotherExtendedClass(1,1,1,1);
 
+
         baseClass.addAllNumbers();
-
-
 
     }
 

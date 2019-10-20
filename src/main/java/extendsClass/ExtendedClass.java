@@ -1,9 +1,6 @@
 package extendsClass;
 
 
-import interfaces.AddInterface;
-import interfaces.Second;
-
 public class ExtendedClass extends BaseClass {
 
 
@@ -15,13 +12,14 @@ public class ExtendedClass extends BaseClass {
                 publicScope,
                 privateScope,
                 protectedScope);
+
     }
 
-    public double add(int a, int b){
-        return  a+b;
+    public double add(int a, int b) {
+        return a + b;
     }
 
-
+    @Override
     public int addAllNumbers() {
         return 10;
     }
