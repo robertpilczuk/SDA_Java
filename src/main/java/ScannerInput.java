@@ -9,7 +9,7 @@ public class ScannerInput {
 
         while (!input.matches("quit")) {
             input= scanner.nextLine();
-            intInput = Integer.valueOf(input);
+//            intInput = Integer.valueOf(input);
             //            Integer;
 //            Double;
 //            Long;
@@ -23,7 +23,7 @@ public class ScannerInput {
 
 
             System.out.println(input);
-            System.out.println(intInput);
+//            System.out.println(intInput);
 //            System.out.println(inputValue);
 //            System.out.println(fromStringToInt);
         }
