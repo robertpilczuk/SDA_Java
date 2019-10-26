@@ -12,7 +12,7 @@ public class Threads {
                 for (int i = 0; i < 100; i++) {
                     System.out.println("Thread 1");
                     try {
-                        sleep(10);
+                        sleep(11);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
