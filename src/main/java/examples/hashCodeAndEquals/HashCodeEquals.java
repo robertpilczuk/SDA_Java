@@ -21,7 +21,6 @@ public class HashCodeEquals {
 
     public int hashCode(){
         return internalCounter;
-
     }
 
     public boolean equals(Object o){
