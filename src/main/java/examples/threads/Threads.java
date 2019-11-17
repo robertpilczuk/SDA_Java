@@ -6,16 +6,13 @@ public class Threads {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 100; i++) {
-                    System.out.println("Thread 1");
-                    try {
-                        sleep(11);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+        Thread thread = new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                System.out.println("Thread 1");
+                try {
+                    sleep(11);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         });
