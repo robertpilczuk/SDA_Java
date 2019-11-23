@@ -19,4 +19,15 @@ public class Address {
         this.zipCode = zipCode;
         this.city = city;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "street:\"" + street + '\"' +
+                ", houseNumber:\"" + houseNumber + '\"' +
+                ", flat:\"" + flat + '\"' +
+                ", zipCode:\"" + zipCode + '\"' +
+                ", city:\"" + city + '\"' +
+                '}';
+    }
 }

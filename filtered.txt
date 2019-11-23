@@ -1,0 +1,11 @@
+Temperature,Celsius,C,Celsius,C,1,0
+Temperature,Celsius,C,Fahrenheit,F,9/5,32
+Temperature,Celsius,C,Kelvin,K,1,273.15
+Temperature,Celsius,C,Rankin,R,9/5,491.67
+Temperature,Fahrenheit,F,Celsius,C,0.555555555555555,-17.77777778
+Temperature,Fahrenheit,F,Kelvin,K,0.555555555555555,255.3722222
+Temperature,Fahrenheit,F,Rankin,R,1,459.57
+Temperature,Fahrenheit,F,Fahrenheit,F,1,0
+Temperature,Rankin,R,Rankin,R,1,0
+Temperature,Kelvin,K,Kelvin,K,1,0
+Temperature,Kelvin,K,Rankin,R,9/5,0

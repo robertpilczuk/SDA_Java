@@ -24,21 +24,27 @@ public class ThreadMain {
 
         try {
             sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println("MainThread");
-
-        try {
+            System.out.println("MainThread");
             thread1.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        Listener listener = new Listener();
+
+
+
+        CodeExecutedInThread clazz = new CodeExecutedInThread(listener);
+
+        Thread threadClass = new Thread(clazz);
+        threadClass.start();
+
+        listener.setData("");
+
+
+
 
     }
-
 
 
 }
